@@ -1,0 +1,25 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@null</item>
+    <item name="colorPrimaryDark">@null</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+
+  <style name="Toolbar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">64dp</item>
+    <item name="android:gravity">center</item>
+    <item name="android:background">@color/colorPrimary</item>
+  </style>
+
+  <declare-styleable name="PhotoAlbum">
+    <attr name="album_width" format="dimension"/>
+    <attr name="album_height" format="dimension"/>
+    <attr name="album_margin" format="dimension"/>
+    <attr name="enlarge_scale" format="float"/>
+  </declare-styleable>
+
+</resources>
